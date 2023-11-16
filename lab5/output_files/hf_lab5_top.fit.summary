@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Oct 31 11:30:46 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : hf_lab5_top
+Top-level Entity Name : hf_top
+Family : MAX 10
+Device : 10M50DAF484C6GES
+Timing Models : Preliminary
+Total logic elements : 1,383 / 49,760 ( 3 % )
+    Total combinational functions : 1,132 / 49,760 ( 2 % )
+    Dedicated logic registers : 809 / 49,760 ( 2 % )
+Total registers : 809
+Total pins : 1 / 360 ( < 1 % )
+Total virtual pins : 0
+Total memory bits : 512 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tug30155/ece2613/lab6
+valu_1
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1699980757
+!i10b 1
+!s100 Z`d9nof0Pe=z;k7oI5N`e0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IH>YcY4gY5@`5CRDISOe>81
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1699979010
+8alu_1.sv
+Falu_1.sv
+!i122 0
+L0 7 18
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1699980757.000000
+!s107 ../lab3/svn_seg_decoder.sv|alu_1.sv|lab6_alu_1.sv|tb_lab6_alu_1.sv|
+Z7 !s90 -sv|tb_lab6_alu_1.sv|lab6_alu_1.sv|alu_1.sv|../lab3/svn_seg_decoder.sv|
+!i113 1
+o-sv
+Z8 tCvgOpt 0
+vlab6_alu_1
+R1
+R2
+!i10b 1
+!s100 ^Fz^k3C2`0Uca2B>MKD;G3
+R3
+IRn6enCo2T99L^=gC<MPl90
+R4
+S1
+R0
+w1699980748
+8lab6_alu_1.sv
+Flab6_alu_1.sv
+!i122 0
+L0 7 11
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 ../lab3/svn_seg_decoder.sv|alu_1.sv|lab6_alu_1.sv|tb_lab6_alu_1.sv|
+R7
+!i113 1
+o-sv
+R8
+vsvn_seg_decoder
+R1
+R2
+!i10b 1
+!s100 JaKljT56dhMkT;LSQ<_[O1
+R3
+IV92zzm6NC47X4TNQL64U03
+R4
+S1
+R0
+w1696955670
+8../lab3/svn_seg_decoder.sv
+F../lab3/svn_seg_decoder.sv
+!i122 0
+L0 4 34
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+o-sv
+R8
+vtb_lab6_alu_1
+R1
+R2
+!i10b 1
+!s100 P0:lVP0c4G674eRcL]zGT1
+R3
+IdVjNXlG3N67XlnJNo;B2P0
+R4
+S1
+R0
+w1693365114
+8tb_lab6_alu_1.sv
+Ftb_lab6_alu_1.sv
+!i122 0
+L0 8 113
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+o-sv
+R8

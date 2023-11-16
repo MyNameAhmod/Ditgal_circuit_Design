@@ -1,0 +1,13 @@
+# vsim -c -do "lab3_decoder.m_sim" tb_lab3_decoder 
+# Start time: 12:34:51 on Oct 10,2023
+# Loading sv_std.std
+# Loading work.tb_lab3_decoder
+# Loading work.lab3_decoder
+# Loading work.anode_decoder
+# Loading work.svn_seg_decoder
+# do lab3_decoder.m_sim
+# Simulation complete - no mismatches!!!
+# ** Note: $finish    : tb_lab3_decoder.sv(69)
+#    Time: 2560 ns  Iteration: 0  Instance: /tb_lab3_decoder
+# End time: 12:34:51 on Oct 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

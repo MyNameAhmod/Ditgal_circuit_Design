@@ -1,0 +1,11 @@
+# vsim -c -do "hamming7_4_decode.m_sim" tb_hamming7_4_decode 
+# Start time: 12:03:57 on Oct 17,2023
+# Loading sv_std.std
+# Loading work.tb_hamming7_4_decode
+# Loading work.hamming7_4_decode
+# do hamming7_4_decode.m_sim
+# Simulation complete - no mismatches!!!
+# ** Note: $finish    : tb_hamming7_4_decode.sv(67)
+#    Time: 2560 ns  Iteration: 0  Instance: /tb_hamming7_4_decode
+# End time: 12:03:57 on Oct 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

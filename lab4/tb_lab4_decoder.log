@@ -1,0 +1,13 @@
+# vsim -c -do "lab4_decoder.m_sim" tb_lab4_decoder 
+# Start time: 19:43:57 on Oct 31,2023
+# Loading sv_std.std
+# Loading work.tb_lab4_decoder
+# Loading work.lab4_decoder
+# Loading work.svn_seg_decoder
+# Loading work.hamming7_4_decode
+# do lab4_decoder.m_sim
+# Simulation complete - no mismatches!!!
+# ** Note: $finish    : tb_lab4_decoder.sv(64)
+#    Time: 2560 ns  Iteration: 0  Instance: /tb_lab4_decoder
+# End time: 19:43:57 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

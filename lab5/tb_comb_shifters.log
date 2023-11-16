@@ -1,0 +1,11 @@
+# vsim -c -do "comb_shifters.m_sim" tb_comb_shifters 
+# Start time: 18:25:07 on Nov 14,2023
+# Loading sv_std.std
+# Loading work.tb_comb_shifters
+# Loading work.comb_shifters
+# do comb_shifters.m_sim
+# Simulation complete - no mismatches!!!
+# ** Note: $finish    : tb_comb_shifters.sv(65)
+#    Time: 40960 ns  Iteration: 0  Instance: /tb_comb_shifters
+# End time: 18:25:07 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

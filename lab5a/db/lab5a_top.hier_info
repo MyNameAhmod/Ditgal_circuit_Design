@@ -1,0 +1,130 @@
+|DE10_LITE_Temple_Top
+key[0] => _.IN1
+key[1] => ~NO_FANOUT~
+ledr[0] <= top_latch:u_top.qa
+ledr[1] <= top_latch:u_top.qb
+ledr[2] <= top_latch:u_top.q_lvl
+ledr[3] <= top_latch:u_top.q_latch
+ledr[4] <= top_latch:u_top.q_ff
+ledr[5] <= <GND>
+ledr[6] <= <GND>
+ledr[7] <= <GND>
+ledr[8] <= <GND>
+ledr[9] <= <GND>
+sw[0] => sw[0].IN1
+sw[1] => sw[1].IN1
+sw[2] => sw[2].IN1
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top
+qa <= sr_latch:u_sr.qa
+qb <= sr_latch:u_sr.qb
+q_lvl <= lvl_sen_sr_latch:u_lvl_sen.q
+q_latch <= transparent_d_latch:u_tra.q
+q_ff <= d_flip_flop:u_diff.q
+s => sr_latch:u_sr.s
+s => lvl_sen_sr_latch:u_lvl_sen.s
+r => sr_latch:u_sr.r
+r => lvl_sen_sr_latch:u_lvl_sen.r
+d => transparent_d_latch:u_tra.d
+d => d_flip_flop:u_diff.d
+ck => lvl_sen_sr_latch:u_lvl_sen.c
+ck => transparent_d_latch:u_tra.c
+ck => d_flip_flop:u_diff.clk
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|sr_latch:u_sr
+qa <= qa.DB_MAX_OUTPUT_PORT_TYPE
+qb <= qb.DB_MAX_OUTPUT_PORT_TYPE
+s => qa.IN1
+r => qb.IN0
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|lvl_sen_sr_latch:u_lvl_sen
+q <= sr_latch:u_sr.qb
+s => s1.IN0
+r => r1.IN0
+c => s1.IN1
+c => r1.IN1
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|lvl_sen_sr_latch:u_lvl_sen|sr_latch:u_sr
+qa <= qa.DB_MAX_OUTPUT_PORT_TYPE
+qb <= qb.DB_MAX_OUTPUT_PORT_TYPE
+s => qa.IN1
+r => qb.IN0
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|transparent_d_latch:u_tra
+q <= lvl_sen_sr_latch:u_lvl.q
+d => lvl_sen_sr_latch:u_lvl.s
+d => lvl_sen_sr_latch:u_lvl.r
+c => lvl_sen_sr_latch:u_lvl.c
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|transparent_d_latch:u_tra|lvl_sen_sr_latch:u_lvl
+q <= sr_latch:u_sr.qb
+s => s1.IN0
+r => r1.IN0
+c => s1.IN1
+c => r1.IN1
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|transparent_d_latch:u_tra|lvl_sen_sr_latch:u_lvl|sr_latch:u_sr
+qa <= qa.DB_MAX_OUTPUT_PORT_TYPE
+qb <= qb.DB_MAX_OUTPUT_PORT_TYPE
+s => qa.IN1
+r => qb.IN0
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|d_flip_flop:u_diff
+q <= transparent_d_latch:u_servant.q
+d => transparent_d_latch:u_master.d
+clk => transparent_d_latch:u_servant.c
+clk => transparent_d_latch:u_master.c
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|d_flip_flop:u_diff|transparent_d_latch:u_master
+q <= lvl_sen_sr_latch:u_lvl.q
+d => lvl_sen_sr_latch:u_lvl.s
+d => lvl_sen_sr_latch:u_lvl.r
+c => lvl_sen_sr_latch:u_lvl.c
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|d_flip_flop:u_diff|transparent_d_latch:u_master|lvl_sen_sr_latch:u_lvl
+q <= sr_latch:u_sr.qb
+s => s1.IN0
+r => r1.IN0
+c => s1.IN1
+c => r1.IN1
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|d_flip_flop:u_diff|transparent_d_latch:u_master|lvl_sen_sr_latch:u_lvl|sr_latch:u_sr
+qa <= qa.DB_MAX_OUTPUT_PORT_TYPE
+qb <= qb.DB_MAX_OUTPUT_PORT_TYPE
+s => qa.IN1
+r => qb.IN0
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|d_flip_flop:u_diff|transparent_d_latch:u_servant
+q <= lvl_sen_sr_latch:u_lvl.q
+d => lvl_sen_sr_latch:u_lvl.s
+d => lvl_sen_sr_latch:u_lvl.r
+c => lvl_sen_sr_latch:u_lvl.c
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|d_flip_flop:u_diff|transparent_d_latch:u_servant|lvl_sen_sr_latch:u_lvl
+q <= sr_latch:u_sr.qb
+s => s1.IN0
+r => r1.IN0
+c => s1.IN1
+c => r1.IN1
+
+
+|DE10_LITE_Temple_Top|top_latch:u_top|d_flip_flop:u_diff|transparent_d_latch:u_servant|lvl_sen_sr_latch:u_lvl|sr_latch:u_sr
+qa <= qa.DB_MAX_OUTPUT_PORT_TYPE
+qb <= qb.DB_MAX_OUTPUT_PORT_TYPE
+s => qa.IN1
+r => qb.IN0
+
+

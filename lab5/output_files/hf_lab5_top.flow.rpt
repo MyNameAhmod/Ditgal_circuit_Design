@@ -1,0 +1,129 @@
+Flow report for hf_lab5_top
+Tue Oct 31 11:31:05 2023
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Tue Oct 31 11:30:55 2023       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; hf_lab5_top                                 ;
+; Top-level Entity Name              ; hf_top                                      ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C6GES                            ;
+; Timing Models                      ; Preliminary                                 ;
+; Total logic elements               ; 1,383 / 49,760 ( 3 % )                      ;
+;     Total combinational functions  ; 1,132 / 49,760 ( 2 % )                      ;
+;     Dedicated logic registers      ; 809 / 49,760 ( 2 % )                        ;
+; Total registers                    ; 809                                         ;
+; Total pins                         ; 1 / 360 ( < 1 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 512 / 1,677,312 ( < 1 % )                   ;
+; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/31/2023 11:29:02 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; hf_lab5_top         ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 24964504230027.169876614222463         ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; 4                                      ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; hf_top      ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; hf_top      ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; hf_top      ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; hf_top                                 ; hf_lab5_top   ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:01:06     ; 1.0                     ; 600 MB              ; 00:01:59                           ;
+; Fitter               ; 00:00:35     ; 1.2                     ; 1221 MB             ; 00:00:34                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 477 MB              ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:08     ; 1.4                     ; 656 MB              ; 00:00:08                           ;
+; Total                ; 00:01:55     ; --                      ; --                  ; 00:02:47                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++----------------------+------------------+--------------+--------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name      ; OS Version   ; Processor type ;
++----------------------+------------------+--------------+--------------+----------------+
+; Analysis & Synthesis ; ece-000          ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; Fitter               ; ece-000          ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; Assembler            ; ece-000          ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; Timing Analyzer      ; ece-000          ; CentOS Linux ; CentOS Linux ; x86_64         ;
++----------------------+------------------+--------------+--------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off hf_lab5_top -c hf_lab5_top
+quartus_fit --read_settings_files=off --write_settings_files=off hf_lab5_top -c hf_lab5_top
+quartus_asm --read_settings_files=off --write_settings_files=off hf_lab5_top -c hf_lab5_top
+quartus_sta hf_lab5_top -c hf_lab5_top
+
+
+

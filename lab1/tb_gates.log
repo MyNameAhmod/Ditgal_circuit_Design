@@ -1,0 +1,11 @@
+# vsim -c -do "gates.m_sim" tb_gates 
+# Start time: 11:46:41 on Sep 12,2023
+# Loading sv_std.std
+# Loading work.tb_gates
+# Loading work.gates
+# do gates.m_sim
+# Simulation complete - no mismatches!!!
+# ** Note: $finish    : tb_gates.sv(64)
+#    Time: 80 ns  Iteration: 0  Instance: /tb_gates
+# End time: 11:46:41 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

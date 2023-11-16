@@ -1,0 +1,11 @@
+# vsim -c -do "alu_1.m_sim" tb_alu_1 
+# Start time: 11:47:42 on Nov 14,2023
+# Loading sv_std.std
+# Loading work.tb_alu_1
+# Loading work.alu_1
+# do alu_1.m_sim
+# Simulation complete - no mismatches!!!
+# ** Note: $finish    : tb_alu_1.sv(67)
+#    Time: 81920 ns  Iteration: 0  Instance: /tb_alu_1
+# End time: 11:47:42 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
